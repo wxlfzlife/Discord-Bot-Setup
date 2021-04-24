@@ -17,7 +17,7 @@ async def on_message(message):
 #returns the statement below
 
   if message.content.startswith('add your trigger command here'):
-    await message.channel.send('add what you want it to say or do')
+    await message.channel.send('add what you want it to say or do here')
 #sends the message you put above in the channel it was triggered in
 
 client.run(my_secret)
